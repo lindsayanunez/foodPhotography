@@ -1,0 +1,158 @@
+/* -----------------Nav------------------*/
+.navbarstyle{
+  /*position: fixed;*/
+  background-color: white;
+  padding:25px;
+  margin: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+.nav-link{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 1.25em;
+   padding-left:2em;
+   padding-right:2em;
+}
+
+.nav-brand{
+  font-family: 'Cinzel', serif;
+  font-size: 1.75em;
+
+}
+
+.icon-bar {
+  color: black;
+  border-color: black;
+  background-color: black;
+}
+
+
+.navbar .navul li a:visited {
+  text-decoration: none;
+  color:inherit;
+}
+
+.navbar .navul li a:hover {
+    color: gray;
+    background-color: inherit;
+}
+
+.navbar .navbar-header .navbar-brand a:visited {
+  text-decoration: none;
+  color:inherit;
+}
+
+/* -----------------footer------------------*/
+
+.footer{
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 10px;
+  position: relative;
+  top: 100px;
+  color: black;
+}
+
+.footer p{
+  font-size: 12px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.footer a{
+  padding: 10px;
+}
+
+.footer a:visited{
+  color: inherit;
+}
+
+.footer a:hover{
+  color: gray;
+}
+
+/* -----------------Main Page------------------*/
+
+.mainpage h1{
+  font-family: 'Cinzel', serif;
+  color:white;
+  text-align: center;
+  font-size: 6em;
+  vertical-align:text-top;
+}
+
+.mainpage h2{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  vertical-align:text-top;
+}
+
+.mainpage{
+  background-image: url("file:///Users/lindsayanunez/Desktop/foodPortfolio/images/homeMainPhoto.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position:center;
+  padding: 200px;
+  margin-bottom: 30px;
+}
+
+/* -----------------food pages------------------*/
+header{
+  position: relative;
+  top: 120px;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+
+header h1{
+  color: black;
+  text-align:center;
+  font-size: 64px;
+  font-family: 'Cinzel', serif;
+  position: relative;
+  }
+
+ header h4{
+    color:black;
+    text-align:center;
+    font-family: arial;
+    position: relative;
+
+  }
+
+.foodpicpage{
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+  .foodpicBig{
+    max-width: 80%;
+    max-height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+.foodpicSmall{
+  width: 80%;
+  height: auto;
+  display: inline-block;
+  }
+  .foodpicRight{
+    position: relative;
+    left:75px;
+    padding-right: 5px;
+  }
+
+  .foodpicLeft{
+    position: relative;
+    /*right:15px;*/
+    padding-left: 5px;
+  }
+
