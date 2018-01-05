@@ -81,7 +81,28 @@
   text-align: center;
   font-size: 6em;
   vertical-align:text-top;
+
+   /* H1 Media Queries*/
 }
+@media (min-width: 0px) {
+  .mainpage h1 {font-size: 3.5rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .mainpage h1 {font-size:4.5rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mainpage h1 {font-size:5.5rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mainpage h1 {font-size:6rem;} /*1rem = 16px*/
+}
+   /* ***********/
 
 .mainpage h2{
   color:white;
