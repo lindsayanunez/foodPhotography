@@ -50,7 +50,7 @@
   text-align: center;
   padding: 40px 10px;
   position: relative;
-  top: 100px;
+  top: 100;
   color: black;
 }
 
@@ -72,6 +72,9 @@
 .footer a:hover{
   color: gray;
 }
+
+
+
 
 /* -----------------Main Page------------------*/
 
@@ -146,6 +149,7 @@
   display: inline-block;
   text-align: center;
 }
+
 
 /* -----------------food pages------------------*/
 header{
