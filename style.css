@@ -99,6 +99,11 @@
   margin-bottom: 30px;
 }
 
+.mainpage button{
+  display: inline-block;
+  text-align: center;
+}
+
 /* -----------------food pages------------------*/
 header{
   position: relative;
