@@ -196,6 +196,13 @@ header h1{
 
   }
 
+  header h4{
+    max-width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 .foodpicSmall{
   width: 80%;
   height: auto;
